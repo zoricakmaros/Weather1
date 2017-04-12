@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+</head>
+
+<script src="post.js"></script>
+
+<body>
+	
+		<legend>
+		
+		</legend>
+	<br>
+		
+	<br>
+		<label>City: </label> 
+		<input type="text" id="citytxt" value=""> 
+		<button onclick="cityup()">Submit</button>
+	<br>
+	<br>
+
+<script src="weather.js"></script>
+
+	<div class="weatherAPI">
+		<div class="temperature"><span id="temperature">0</span>&deg; F</div> 
+		<div class="location"><span id="location">Unknown</span></div>    
+		<div class="humidity">
+			<span id="humidity">0</span>% Humidity 
+		</div>
+		<div class="wind">
+			<span id="wind">0</span> mph <span id="direction">0 </span>&deg;
+		</div>
+	</div>
+	
+<br>
+
+<form>
+	
+		<legend>
+			
+		</legend>
+		
+			
+			
+		
+			<span id="resp"></span>
+	 </fieldset>
+</form>
+
+</body>
+
+</html>
